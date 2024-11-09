@@ -1,0 +1,14 @@
+.headerSection {
+  background-color: #def7ff;
+}
+
+.headerSection__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+
+.heaserSection__logoLink {
+  max-width: 100px;
+}

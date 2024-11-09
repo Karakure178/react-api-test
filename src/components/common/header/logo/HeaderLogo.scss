@@ -1,0 +1,13 @@
+.headerLogo {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+
+  @include at-hover {
+    opacity: 0.5;
+  }
+
+  img {
+    width: 100%;
+  }
+}

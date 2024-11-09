@@ -1,0 +1,47 @@
+// ===========================================
+// 全体共通用
+// カラー設定
+// ===========================================
+
+// -------------------------------------------
+// メインカラー
+// -------------------------------------------
+$color-primary_orange: #e88d67;
+$color-primary_indigo: #006989;
+$color-primary_red: #cc4f65;
+
+// -------------------------------------------
+// サブカラー
+// -------------------------------------------
+$color-secondary_indigo: #003546;
+$color-secondary_light: #ededd0;
+$color-secondary_violet: #783762;
+$color-secondary_green: #652b0d;
+
+// -------------------------------------------
+// ニュートラルカラー
+// -------------------------------------------
+$color-neutral_dark-content: #25272a;
+$color-neutral_dark-borders: #323438;
+$color-neutral_dark-grey: #384455;
+$color-neutral_light-content: #d9e1e7;
+$color-neutral_light-borders: #f1f5f7;
+$color-neutral_light-grey: #809fb8;
+$color-neutral_white: #fff;
+
+// ===========================================
+// 全体共通用
+// フォント設定
+// ===========================================
+$f_yuGothic: "游ゴシック体", yugothic, "游ゴシック Medium", "Yu Gothic Medium",
+  "游ゴシック", "Yu Gothic";
+$baseFont: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+  "Meiryo", "arial";
+$notoSans: "Noto Sans JP", $baseFont;
+
+// ===========================================
+// 全体共通用
+// イージング関数
+// ===========================================
+$ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+$ease-out: cubic-bezier(0.22, 1, 0.36, 1);

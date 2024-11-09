@@ -1,0 +1,19 @@
+.headerNav {
+}
+
+.headernav__wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.headernav__item {
+  a {
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+
+    @include at-hover {
+      opacity: 0.5;
+    }
+  }
+}
