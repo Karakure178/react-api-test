@@ -9,8 +9,9 @@ function getRandomInt(max) {
 
 export function APIContextProvider({ children }) {
   const [users, setUsers] = useState([]);
-  const url = "http://localhost:8000/ai/";
-  const random = getRandomInt(105);
+  // const url = "https://sabe-dev.onrender.com/ai/";
+  const url = "https://test1.egg9017shun.workers.dev/api/todos/";
+  const random = getRandomInt(20);
   const originUrl = random !== 0 ? url + String(random) : url + "1";
 
   useEffect(() => {
