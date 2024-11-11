@@ -1,0 +1,22 @@
+.infoSection {
+}
+
+.infoSection__inner {
+  display: flex;
+  justify-content: center;
+
+  @include mq(md) {
+    padding: 5rem;
+  }
+
+  padding: 1rem;
+}
+
+.infoSection__headline {
+  font-size: 32px;
+  font-weight: 700;
+
+  @include mq(md) {
+    font-size: 48px;
+  }
+}
