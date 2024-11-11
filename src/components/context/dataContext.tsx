@@ -11,7 +11,7 @@ export function APIContextProvider({ children }) {
   const [users, setUsers] = useState([]);
   // const url = "https://sabe-dev.onrender.com/ai/";
   const url = "https://test1.egg9017shun.workers.dev/api/todos/";
-  const random = getRandomInt(20);
+  const random = getRandomInt(80);
   const originUrl = random !== 0 ? url + String(random) : url + "1";
 
   useEffect(() => {
